@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color:  black;
+    color: azure;
+}
+.header{
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 40px;
+    height: 40px;
+}
+.header button{
+    padding: 10px;
+}
+
+.main{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 400px;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 200px;
+    background-color: #333;
+}
