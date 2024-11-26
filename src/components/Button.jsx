@@ -1,7 +1,7 @@
 
 
-export function Button({children,onClick}){
+export function Button({children,onClick,isActive}){
     return(
-        <button onClick={onClick}>{children}</button>
+        <button className={isActive?'button active':'button'} onClick={onClick} >{children}</button>
     )
 }
