@@ -2,6 +2,7 @@ import {vars} from '../data'
 import {MainVar} from'./MainVar'
 import {ButtonMain} from './ButtonMain'
 import { useState } from 'react'
+import { Timer } from './Timer'
 
 export function Main(){
 
@@ -33,6 +34,7 @@ export function Main(){
         <div className='p-main'>
         <p>{cont}</p>
         </div>
+        <Timer/>
         </section>
     )
 }
