@@ -1,3 +1,4 @@
+
 export function MainVar({title,text}){
     return(
         <ul>
