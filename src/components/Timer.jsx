@@ -3,7 +3,7 @@ import { useEffect,useState } from "react";
 
 export function Timer(){
 
-let [second,setSecond]=useState(5)
+let [second,setSecond]=useState(30)
 
 
 useEffect(()=>{
