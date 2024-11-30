@@ -2,6 +2,10 @@ import { Button } from "./Button"
 import { useState } from "react"
 
 export function Header(){
+     
+    const [now,setNow] = useState(new Date())
+    setInterval(()=>setNow(new Date()) ,1000)
+    
     const obj={
         img:'смаилик.jpg'
     }
@@ -23,6 +27,9 @@ export function Header(){
     return(
         <div className="header">
           <img src="./img/смаилик.jpg" alt="" />
+          <div className="time-now">
+          <span >Текущее время:{now.toLocaleTimeString()}</span>
+          </div>
           <div className="header-button">
              <Button isActive={content==='поздравляю'} onClick={()=>handleclick1('поздравляю')}>{content}</Button>
              <Button isActive={content2==='тебя'} onClick={()=>handleclick2('тебя')}>{content2}</Button>
