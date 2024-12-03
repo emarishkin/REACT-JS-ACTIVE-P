@@ -28,10 +28,10 @@ export function Main(){
         <p><strong>ИТОГИ</strong></p>
         </div>
         <div className='main-button'>
-          <ButtonMain isActive={cont==='победа СССР'} onClick={()=>clickButtonMain('победа СССР')}>Великая Отечественная война</ButtonMain>
-          <ButtonMain isActive={cont==='вывод советских войск'} onClick={()=>clickButtonMain('вывод советских войск')}>Афганская война</ButtonMain>
-          <ButtonMain isActive={cont==='победа России'} onClick={()=>clickButtonMain('победа России')}>Гражданская война в Сирии</ButtonMain>
-          <ButtonMain isActive={cont==='победа РФ'} onClick={()=>clickButtonMain('победа РФ')}>Вторая чеченская война</ButtonMain>
+          <ButtonMain isActive={cont==='победа СССР'} onClick={()=>clickButtonMain('победа СССР')}><p>Великая Отечественная война</p></ButtonMain>
+          <ButtonMain isActive={cont==='вывод советских войск'} onClick={()=>clickButtonMain('вывод советских войск')}><p>Афганская война</p></ButtonMain>
+          <ButtonMain isActive={cont==='победа России'} onClick={()=>clickButtonMain('победа России')}><p>Гражданская война в Сирии</p></ButtonMain>
+          <ButtonMain isActive={cont==='победа РФ'} onClick={()=>clickButtonMain('победа РФ')}><p>Вторая чеченская война</p></ButtonMain>
         </div>
         <div className='p-main'>
         <p>{cont}</p>

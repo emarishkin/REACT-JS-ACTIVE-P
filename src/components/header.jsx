@@ -33,7 +33,7 @@ export function Header(){
           <div className="header-button">
              <Button isActive={content==='поздравляю'} onClick={()=>handleclick1('поздравляю')}>{content}</Button>
              <Button isActive={content2==='тебя'} onClick={()=>handleclick2('тебя')}>{content2}</Button>
-             <Button isActive={content3===obj.img} onClick={()=>handleclick3(obj.img)}>{content3}</Button>
+             <Button isActive={content3==='друг'} onClick={()=>handleclick3('друг')}>{content3}</Button>
           </div>
         </div>
     )
