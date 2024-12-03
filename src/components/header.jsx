@@ -26,7 +26,7 @@ export function Header(){
     
     return(
         <div className="header">
-          <img src="./img/смаилик.jpg" alt="" />
+          <img src="./img/звезда.webp" alt="" />
           <div className="time-now">
           <span >Текущее время:{now.toLocaleTimeString()}</span>
           </div>

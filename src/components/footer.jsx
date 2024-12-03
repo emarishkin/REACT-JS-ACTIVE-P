@@ -1,10 +1,10 @@
 
 
-import { Counter } from "./Counter"
+import { CounterAndModal } from "./Counter"
 
 export function Footer(){
    
  return (
-   <Counter></Counter>
+   <CounterAndModal></CounterAndModal>
  )
 }

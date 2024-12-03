@@ -16,11 +16,13 @@ export function Main(){
     return(
       <section>
         <div className="main">
+          <div className='main-info'>
           <p>Войны</p>
           <MainVar title={vars[0].title} text={vars[0].text}/>
           <MainVar title={vars[1].title} text={vars[1].text}/>
           <MainVar title={vars[2].title} text={vars[2].text}/>
           <MainVar title={vars[3].title} text={vars[3].text}/>
+          </div>
         </div>
         <div className='p-main'>
         <p><strong>ИТОГИ</strong></p>
